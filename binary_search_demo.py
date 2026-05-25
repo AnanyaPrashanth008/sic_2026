@@ -6,6 +6,7 @@ input_numbers = [1,2,3,4,5,6,7,8,9,10]
 for i in range(1, len(sys.argv)):
     input_numbers.append(float(sys.argv[i]))
 
+
 print(f'User given elements are \n', input_numbers)
 
 search_element = float(input('Enter the element to be searched: '))
