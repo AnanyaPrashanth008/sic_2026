@@ -14,7 +14,7 @@ def disconnect_db(connection):
         connection.close()
         print("disconnected")
     except :
-        print(f"DB connection failed")
+        print(f"DB disconnection failed")
 
 def create_table():
     query = 'create table IF NOT EXISTS people(id int primary key auto_increment, name varchar(64) not null, gender bool not null, location varchar(32),int age default(0))'
