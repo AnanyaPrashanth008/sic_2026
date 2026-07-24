@@ -3,7 +3,7 @@
 
 import pandas as pd
 
-df = pd.read_csv('students.csv')
+df = pd.read_csv('vgsales.csv')
 
 print(f"Data loaded successfully!")
 print(f"Dataset contains {len(df)} records")
